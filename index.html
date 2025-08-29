@@ -4,8 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table,th,td
+        {
+            border: 1px solid black
+            /* border-collapse: collapse;       */
+        }
+        td{
+            background-color: yellow;
+        }
+        th,td{
+            border: 1px solid black;
+            border-radius: 10px;
+            border-style: dashed;
+            padding: 50px;
+            border-spacing: 30px;
+            text-align: left;
+        }
+        td:nth-child(even){
+            background-color: lightblue;
+        }
+        td:hover{
+            background-color: blue;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1> hi</h1>
+    <h2> hello</h2>
+    <h3>good morning</h3>
+    <h4>good afternoon</h4>
+    <h5>good evening </h5>
+    <h6>good night</h6>
+    <table style="width:100%">
+        <caption>Student Details</caption>
+        <tr>
+            <th>S.no</th>
+            <th colspan="2"> Name</th>
+            <th>Roll no</th>       
+        </tr>
+        <tr>
+            <td> 1</td>       
+            <td> Avantika</td>
+            <td>123</td>
+         </tr>
+    </table>
+    <ol>
+        <li>apple</li>
+        <li>banana</li>
+        <li>grapes</li>  
+    </ol>
+    <ul>
+        <li>mango</li>
+        <li>orange</li>
+        <li>kiwi</li>
+    </ul>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hypertext Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+        <dt>JS</dt>
+        <dd>JavaScript</dd>
+
+    </dl>
 </body>
 </html>
